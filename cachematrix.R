@@ -45,5 +45,3 @@ cacheSolve <- function(x, ...) {
     x$setInvMatrix(m)
     m
 }
-# 
-cacheSolve(makeCacheMatrix(matrix(c(1,0,0,1),2,2)))
